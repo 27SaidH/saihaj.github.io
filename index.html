@@ -2,25 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CS 490WD Projects</title>
+  <title>My Portfolio | CS 490WD Projects</title>
+  <link rel="stylesheet" href="Midterm/style.css">
 </head>
+
 <body>
-  <!-- Header -->
-  <h1>CS 490 WD Projects</h1>
+  <header>
+    <h1>CS 490 Web Development Portfolio</h1>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <div class="card">
+          <h3>Week 2 – Parks & Rec</h3>
+          <p>Built a responsive home page introducing local parks and recreation areas.</p>
+          <a href="Week2Assignment/home.html" target="_blank">View Project</a>
+        </div>
 
-  <!-- Navigation -->
-  <nav>
-  <b>
-    <a href="index.html">Home</a>&nbsp;|&nbsp;
-    <a href="Week2Assignment/home.html">Week 2: Parks & Rec</a>&nbsp;|&nbsp;
-    <a href="Week3Assignment/home.html">Week 3: Cozy Café</a>&nbsp;|&nbsp;
-    <a href="Week4Assignment/home.html">Week 4: Paris</a>&nbsp;|&nbsp;
-    <a href="Week5Assignment/home.html">Week 5: Tech Product Showcase</a>&nbsp;|&nbsp;
-    <a href="Week6Assignment/home.html">Week 6: Shopping List Showcase</a>&nbsp;|&nbsp;
-    <a href="Week7Assignment/week7_assignment.sql">Week 7: Customers and Rentals Database</a>
-  </b> 
-</nav>
+        <div class="card">
+          <h3>Week 3 – Cozy Café</h3>
+          <p>Designed a café website using CSS layouts and responsive design techniques.</p>
+          <a href="Week3Assignment/home.html" target="_blank">View Project</a>
+        </div>
 
-  <p>Welcome to my CS 490WD Projects homepage. Click the links above to see assignments.</p>
+        <div class="card">
+          <h3>Week 4 – Paris</h3>
+          <p>Created a Paris travel page demonstrating HTML semantic tags and multimedia.</p>
+          <a href="Week4Assignment/home.html" target="_blank">View Project</a>
+        </div>
+
+        <div class="card">
+          <h3>Week 5 – Tech Product Showcase</h3>
+          <p>Developed a landing page highlighting tech gadgets with modern Flexbox design.</p>
+          <a href="Week5Assignment/home.html" target="_blank">View Project</a>
+        </div>
+
+        <div class="card">
+          <h3>Week 6 – Shopping List Showcase</h3>
+          <p>Used JavaScript to build an interactive shopping list app.</p>
+          <a href="Week6Assignment/home.html" target="_blank">View Project</a>
+        </div>
+
+        <div class="card">
+          <h3>Week 7 – Customers & Rentals Database</h3>
+          <p>Created and queried a SQL database with customers and rental information.</p>
+          <a href="Week7Assignment/week7_assignment.sql" target="_blank">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
+      <p><a href="https://github.com/YourUserName" target="_blank">GitHub</a></p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>© <span id="year"></span> Your Name</p>
+  </footer>
+
+  <!-- Link to your JS -->
+  <script src="Midterm/script.js" defer></script>
 </body>
 </html>
