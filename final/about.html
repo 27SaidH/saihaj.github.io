@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me — Said Haji</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+<header>
+    <nav class="navbar">
+        <h2 class="logo">SH</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="about-section">
+    <img src="profile.jpg" class="profile-img" alt="Profile Image">
+
+    <div class="about-text">
+        <h1>About Me</h1>
+        <p>I'm Said Haji, an aspiring Technical Program Manager passionate about building 
+        innovative systems, improving operations, and leading cross-functional projects. 
+        I enjoy solving ambiguous problems, designing scalable processes, and connecting 
+        people and ideas to drive impactful outcomes. My background includes CS, Business 
+        Administration, cloud technologies, and leadership roles through NSBE and various 
+        internships.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© <span id="year"></span> Said Haji. All Rights Reserved.</p>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
