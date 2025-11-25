@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education | Said Haji</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+<header>
+    <nav>
+        <h1 class="logo">Said Haji</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="page-content">
+    <h2>Education</h2>
+
+    <h3>University of Missouri–Kansas City</h3>
+    <p>B.S. Computer Science & B.B.A. Business Administration</p>
+
+    <p>I am pursuing a dual degree in Computer Science and Business Administration, focusing on software development, cloud systems, and technical program management. My coursework spans both technical foundations and strategic business principles.</p>
+
+
+    <h3>Relevant Courses</h3>
+    <div class="courses-grid">
+        <div>Operating Systems</div>
+        <div>Web Development</div>
+        <div>Artificial Intelligence</div>
+        <div>Data Structures</div>
+        <div>Cloud Computing</div>
+        <div>Systems Architecture</div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span> Said Haji</p>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
