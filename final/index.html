@@ -1,72 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Portfolio | CS 490WD Projects</title>
-  <link rel="stylesheet" href="Midterm/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <title>Said Haji — Aspiring TPM</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <header>
-    <h1>CS 490 Web Development Portfolio</h1>
-    <nav>
-      <a href="#projects">Said's</a>
-      <a href="#contact">Projects</a>
+
+<header>
+    <nav class="navbar">
+        <h2 class="logo">SH</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
-  </header>
-  <main>
-    <section id="projects">
-      <h2>Featured Projects</h2>
-      <div class="project-grid">
-        <div class="card">
-          <h3>Week 2 – Parks & Rec</h3>
-          <p>Built a responsive home page introducing local parks and recreation areas.</p>
-          <a href="Week2Assignment/home.html" target="_blank">View Project</a>
-        </div>
+</header>
 
-        <div class="card">
-          <h3>Week 3 – Cozy Café</h3>
-          <p>Designed a café website using CSS layouts and responsive design techniques.</p>
-          <a href="Week3Assignment/home.html" target="_blank">View Project</a>
-        </div>
+<section class="hero">
+    <h1>Hi, I'm <span>Said Haji</span></h1>
+    <h3>Aspiring Technical Program Manager</h3>
+    <p>Building scalable solutions at the intersection of technology, operations, and user experience.</p>
 
-        <div class="card">
-          <h3>Week 4 – Paris</h3>
-          <p>Created a Paris travel page demonstrating HTML semantic tags and multimedia.</p>
-          <a href="Week4Assignment/home.html" target="_blank">View Project</a>
-        </div>
+    <a href="about.html" class="btn">Learn More</a>
+</section>
 
-        <div class="card">
-          <h3>Week 5 – Tech Product Showcase</h3>
-          <p>Developed a landing page highlighting tech gadgets with modern Flexbox design.</p>
-          <a href="Week5Assignment/home.html" target="_blank">View Project</a>
-        </div>
+<footer>
+    <p>© <span id="year"></span> Said Haji. All Rights Reserved.</p>
+</footer>
 
-        <div class="card">
-          <h3>Week 6 – Shopping List Showcase</h3>
-          <p>Used JavaScript to build an interactive shopping list app.</p>
-          <a href="Week6Assignment/home.html" target="_blank">View Project</a>
-        </div>
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
-        <div class="card">
-          <h3>Week 7 – Customers & Rentals Database</h3>
-          <p>Created and queried a SQL database with customers and rental information.</p>
-          <a href="Week7Assignment/week7_assignment.sql" target="_blank">View Project</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:mmhctm@umkc.edu">mmhctm@umkc.edu</a></p>
-      <p><a href="https://www.linkedin.com/in/said-haji149" target="_blank">linkedin.com/in/said-haji149</a></p>
-    </section>
-  </main>
-  
-  <footer>
-    <p>© <span id="2025"></span> 2025 - Said Haji</p>
-  </footer>
-
-  <script src="Midterm/script.js" defer></script>
 </body>
 </html>
